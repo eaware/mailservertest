@@ -44,4 +44,4 @@ VOLUME /opt/kerio
 
 ## Set default container command ##
 ENTRYPOINT ["/usr/bin/supervisord"]
-CMD ["-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["-c", "/etc/supervisor/conf.d/supervisord.conf"] 
